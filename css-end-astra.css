@@ -1,0 +1,57 @@
+.end{
+    background-color:#F0F0F0;
+    width: 100%;
+    font-size:12px;
+    position:absolute;
+    bottom:0;
+    position:fixed;
+}
+.end a,hr{
+    color:	#505050;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.end ul{
+    display: flex;
+    justify-content: center;
+    padding:8px;
+}
+.end ul li{
+    display: inline-block;
+    margin-left: 12px;
+}
+.end a{
+    margin: 2px;
+    font-size:9.8px;
+}
+.badge{
+    width:100px;
+    margin-bottom:300px;
+}
+
+/* Share icons */
+.share-icon{
+    text-align: center;
+    padding:10px;
+}
+
+.share-icon button{
+    background-color:transparent;
+    width:90%;
+    max-width: 500px;
+    border:2px solid;
+    border-radius:25px;
+    padding:2px;
+}
+#share-wa{
+    color:green;
+}
+#share-fb{
+    color:blue;
+}
+@media(min-width:360px){
+    .end a{
+        margin-left:16px;
+        font-size:12px;
+    }
+}

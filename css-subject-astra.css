@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    padding: 50px 10px 120px 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.subject-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.subject-list a {
+    border: 5px solid gold;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 5px;
+    color: black;
+    text-decoration:none
+}
+
+.subject-list a li {
+    text-align: center;
+}
+
+.disclaimer {
+    padding: 10px;
+    font-size: 12px;
+}
+#ifram{
+    margin-left: -10px;
+}
+iframe{
+border:none;
+}
+
+@media(min-width:350px) {
+    .content {
+        padding: 70px 30px 10px 30px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .subject-list a {
+        padding: 0 15px;
+    }
+}
+
+/* For phones and non-pro tabs*/
+@media(max-width:380px) {
+    .subject-list {
+        flex-direction: column;
+    }
+}
+
+@media(min-width:760px) {
+    .subject-list a {
+        display: inline;
+        font-size: 30px;
+        padding: 0 10px;
+    }
+}
+
+/* For Pro tabs */
+@media(min-width:1000px) {
+    .content {
+        padding: 70px 30px 0 30px;
+    }
+
+    h1 {
+        font-size: 80px;
+    }
+
+    .subject-list a {
+        font-size: 40px;
+        margin: 20px 40px;
+    }
+}
+
+/*For laptops and above*/
+@media(min-width:1200px) {
+    .content {
+        padding: 70px 40px 0 60px;
+    }
+
+    h1 {
+        font-size: 80px;
+    }
+
+    .subject-list a {
+        font-size: 40px;
+        margin-right: 60px;
+    }
+}

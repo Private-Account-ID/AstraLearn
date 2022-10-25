@@ -1,0 +1,26 @@
+.content{
+    padding: 45px;
+}
+.ch_list li{
+    margin: 10px;
+}
+.Questions{
+    margin:10px;
+    margin-left: -15px;
+    margin-bottom: 5px;
+}
+.Answers{
+    display: None;
+    color: blue;
+
+}
+button{
+    background:none;
+    border: none;
+    color: darkmagenta;
+    font-weight: bold;
+    margin-left: 30px;
+}
+table, tr, th, td{
+    border: 1px solid;
+}
